@@ -29,7 +29,7 @@ public final class ManaRPGSystem extends JavaPlugin {
         instance = this;
 
         logger.info("Loading Database...");
-        mongoClient = new MongoClient(new MongoClientURI("mongodb://MiTask:32167@node2.mitask.tech:25600/RPG?authSource=admin&retryWrites=true"));
+        mongoClient = new MongoClient(new MongoClientURI("This database doesnt work anymore so yeah"));
 
         logger.info("Loading Listeners...");
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
