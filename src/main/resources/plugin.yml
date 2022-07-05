@@ -1,0 +1,8 @@
+name: ManaRPGSystem
+version: '${project.version}'
+main: net.mitask.mrs.ManaRPGSystem
+api-version: 1.17
+authors: [ FlimeUS_Fresh ]
+commands:
+  spell:
+    usage: /<command>
